@@ -8,6 +8,7 @@ interface LinkedLists {
   size: () => number;
   toArray: () => number[];
   Reverse: () => void;
+  getFromEnd: (n: number) => void;
 }
 class NodeItem {
   public next: NodeItem | null = null;
