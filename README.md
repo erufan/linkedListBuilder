@@ -27,13 +27,13 @@ console.log(list.size()); // 1
 ```
 The LinkedList class provides the following methods:
 
-addFirst(item: number): Adds a new item at the beginning of the list.
-addLast(item: number): Adds a new item at the end of the list.
-deleteFirst(): Removes the first item from the list.
-deleteLast(): Removes the last item from the list.
-contains(item: number): Checks if the list contains the specified item.
-indexOf(item: number): Returns the index of the specified item, or -1 if not found.
-size(): Returns the number of items in the list.
-toArray(): Converts the list into an array of numbers.
-Reverse(): Reverses the order of the list.
-getFromEnd(n: number): Grab nth item from end
+* addFirst(item: number): Adds a new item at the beginning of the list.
+* addLast(item: number): Adds a new item at the end of the list.
+* deleteFirst(): Removes the first item from the list.
+* deleteLast(): Removes the last item from the list.
+* contains(item: number): Checks if the list contains the specified item.
+* indexOf(item: number): Returns the index of the specified item, or -1 if not found.
+* size(): Returns the number of items in the list.
+* toArray(): Converts the list into an array of numbers.
+* Reverse(): Reverses the order of the list.
+* getFromEnd(n: number): Grab nth item from end
